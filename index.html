@@ -4,26 +4,10 @@
     <meta charset="UTF-8" />
     
 
-    <!-- <link rel="icon" type="image/svg+xml" href="public/settings.png" /> -->
+    <link rel="icon" type="image/svg+xml" href="/port-folio/assets/Picture1-BPr14-C1.png" />
   <link id="favicon" rel="icon" href="favicon-light.svg" />
 
-<script>
-  const favicon = document.getElementById("favicon");
 
-  const setFavicon = (isDark) => {
-    favicon.href = isDark ? "Picture1.png" : "Picture2.png";
-  };
-
-  const darkThemeMq = window.matchMedia("(prefers-color-scheme: dark)");
-
-  // Set favicon on page load
-  setFavicon(darkThemeMq.matches);
-
-  // Listen for theme changes
-  darkThemeMq.addEventListener("change", (e) => {
-    setFavicon(e.matches);
-  });
-</script>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <base href="/port-folio/" />
